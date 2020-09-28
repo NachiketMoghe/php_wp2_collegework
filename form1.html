@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body style="background-color: #aaf5ffc4;">
+    <div style="padding: 50px;">
+    <form action="form1.php" method="post" >
+        Roll Number:<input type="number" name='number'>
+        <br>Name:<input type="text"  name="name" ><br> 
+        Gender:<br>
+        <input type="radio" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio"  name="gender" value="female">
+        <label for="female">Female</label><br>
+        <input type="radio"  name="gender" value="other">
+        <label for="other">Other</label>
+        <br>Subject:<input list="sub" name="sub">
+        <datalist id="sub">
+            <option value="Math">
+            <option value="English">
+            <option value="French">  
+        </datalist>
+        <br>Change the subject: <br>
+        <input type="radio"  name="choice" value="1">
+        <label for="male">Yes</label><br>
+        <input type="radio"  name="choice" value="0">
+        <label for="female">No</label><br>
+        Remember Details;Check this box to give me full marks ;D<input type="checkbox"  name="rem" value="remember ">
+        <br><input type="submit">
+    </form>
+    </div>
+</body>
+</html>
+
+    
